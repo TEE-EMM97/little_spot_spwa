@@ -1,0 +1,26 @@
+{
+  "name": "little_spot_spwa",
+  "version": "1.0.0",
+  "description": "Single Page Web Application (SPWA) to control spotify",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "npm i && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TEE-EMM97/little_spot_spwa.git"
+  },
+  "keywords": [
+    "SPWA"
+  ],
+  "author": "T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TEE-EMM97/little_spot_spwa/issues"
+  },
+  "homepage": "https://github.com/TEE-EMM97/little_spot_spwa#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
