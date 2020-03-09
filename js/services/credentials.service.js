@@ -13,8 +13,8 @@
 
         var service = {
             clientId: "92e06e65050a4c64be6bfe39ec3fde21",
-            redirectShort: "http://localhost:5500/callback",
-            redirectUri: "http://localhost:5500/callback.html",
+            redirectShort: "https://tee-emm97.github.io/little_spot_spwa/callback",
+            redirectUri: "https://tee-emm97.github.io/little_spot_spwa/callback",
             internalRedirectUri: "http://localhost:5500/#/auth_secure",
             scopes: "streaming, user-read-playback-state, user-modify-playback-state",
             authServiceUri: "https://accounts.spotify.com/authorize",
