@@ -13,8 +13,8 @@
 
         var service = {
             clientId: "92e06e65050a4c64be6bfe39ec3fde21",
-            redirectShort: "https://littlespotspwa.herokuapp.com/little_spot_spwa/callback",
-            redirectUri: "https://littlespotspwa.herokuapp.com/little_spot_spwa/callback",
+            redirectShort: "https://littlespotspwa.herokuapp.com/little_spot_spwa/callback/callback",
+            redirectUri: "https://littlespotspwa.herokuapp.com/little_spot_spwa/callback/callback.html",
             internalRedirectUri: "https://littlespotspwa.herokuapp.com/little_spot_spwa/js/states/secure-auth/authenticate.secure.html",
             scopes: "streaming, user-read-playback-state, user-modify-playback-state",
             authServiceUri: "https://accounts.spotify.com/authorize",
