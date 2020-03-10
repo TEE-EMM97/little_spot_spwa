@@ -25,6 +25,8 @@
             refreshServiceUri: "http://localhost:8000/spotify/refresh"
             exchangeServiceUri: "https://littlespotspwa.herokuapp.com/spotify/exchange",
             refreshServiceUri: "https://littlespotspwa.herokuapp.com/spotify/refresh"
+            exchangeServiceUri: "https://littlespotspwa.herokuapp.com:443/spotify/exchange",
+            refreshServiceUri: "https://littlespotspwa.herokuapp.com:443/spotify/refresh"
         };
 
         return service;
