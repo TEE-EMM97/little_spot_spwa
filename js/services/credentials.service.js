@@ -21,8 +21,8 @@
             internalRedirectUri: "https://littlespotspwa.herokuapp.com/little_spot_spwa/auth-secure",
             scopes: "streaming, user-read-playback-state, user-modify-playback-state",
             authServiceUri: "https://accounts.spotify.com/authorize",
-            exchangeServiceUri: "https://littlespotspwa.herokuapp.com:443/spotify/exchange",
-            refreshServiceUri: "https://littlespotspwa.herokuapp.com:443/spotify/refresh"
+            exchangeServiceUri: "https://littlespotapp.herokuapp.com:443/spotify/exchange",
+            refreshServiceUri: "https://littlespotapp.herokuapp.com:443/spotify/refresh"
         };
 
         return service;
