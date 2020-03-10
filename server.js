@@ -49,7 +49,7 @@ const app = express();
 // Is this still needed?
 app.use(express.static(path.join(__dirname, '')));
 
-app.get('/', (req, res, next) => {
+app.get('/*', (req, res, next) => {
   res.sendFile(path.join(__dirname + req.url));
 });
 
