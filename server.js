@@ -58,8 +58,8 @@ app.get('/', (req, res, next) => {
 //Base href Adds the little spot path again
 //We remove it using the split function
 //This allows for full deployment on heroku
-app.get('/little_spot_test/*', (req, res, next) => {
-  res.sendFile(path.join(__dirname + req.url.split("little_spot_test")[1]));
+app.get('/little_spot_spwa/*', (req, res, next) => {
+  res.sendFile(path.join(__dirname + req.url.split("little_spot_spwa")[1]));
 });
 
 
