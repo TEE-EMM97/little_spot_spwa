@@ -101,7 +101,7 @@
 
             function getAuthInfoFromUrl(url) {
                 // var trimmedUrl = url.split("#")[0];
-                var authResponse = url.split("?")[1];
+                var authResponse = url.split("?")[0];
                 var toJson = '{"' + authResponse.replace(/&/g, '","').replace(/=/g, '":"') + '"}';
                 var authInfo = JSON.parse(toJson, function (key, value) {
                     return key === "" ? value : decodeURIComponent(value);
