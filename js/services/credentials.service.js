@@ -23,6 +23,8 @@
             authServiceUri: "https://accounts.spotify.com/authorize",
             exchangeServiceUri: "http://localhost:8000/spotify/exchange",
             refreshServiceUri: "http://localhost:8000/spotify/refresh"
+            exchangeServiceUri: "https://littlespotspwa.herokuapp.com/spotify/exchange",
+            refreshServiceUri: "https://littlespotspwa.herokuapp.com/spotify/refresh"
         };
 
         return service;
