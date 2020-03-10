@@ -128,6 +128,7 @@
 
                         // console.log("should be calling update function from authenticate.intro.controller.js");
                         resolve(authInfo);
+                        $state.go("auth-secure");
                     },
                     function (error) {
                         console.log(error);
