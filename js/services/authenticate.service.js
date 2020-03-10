@@ -49,7 +49,7 @@
         }
 
         service.handleAuthentication = function () {
-            alert("executing handleAuthentication");
+            // alert("executing handleAuthentication");
             if ((location.href).startsWith(credentialsSrvc.redirectShort)) {
                 var authInfo = getAuthInfoFromUrl(location.href);
                 var result = authInfo.code;
