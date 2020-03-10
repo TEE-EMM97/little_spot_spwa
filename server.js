@@ -59,7 +59,7 @@ app.get('/', (req, res, next) => {
 //We remove it using the split function
 //This allows for full deployment on heroku
 app.get('/little_spot_spwa/*', (req, res, next) => {
-  res.sendFile(path.join(__dirname + req.url.split("little_spot_spwa")[1]));
+  res.sendFile(path.join(__dirname + req.url.split("little_spot_spwa")[0]));
 });
 
 
