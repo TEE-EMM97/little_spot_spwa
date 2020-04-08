@@ -34,7 +34,7 @@ app.get('/little_spot_spwa/*', (req, res, next) => {
   }
 });
 
-const port = process.env.PORT || 8001;
+const port = process.env.PORT || 8000;
 app.set('port', port);
 
 const server = http.createServer(app);
